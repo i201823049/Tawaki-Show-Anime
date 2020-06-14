@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TakagiShow</title>
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Sedgwick+Ave|Kaushan Script|Indie+Flower|Acme|Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css4/titulo.css">
+	<link rel="stylesheet" type="text/css" href="css4/retro4.css">
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+		text-decoration: none;
+	}
+	h1{	
+		font-size: 50px;
+		margin: 5px; 
+		font-family: 'Permanent Marker', cursive;
+		float: left;
+		color: white;			  
+	}
+	a{
+		color: white;
+	}
+	.contenedor{
+			width: 100%;
+			height: auto;
+			margin: 0 auto;
+			
+			background-size: 100%;
+			position: relative; 
+	}
+	.contenedor::before{
+		content:"";
+		top:0;
+		left: 0;
+		background-image: url(img/fondore4.jpeg);
+		background-size: cover;
+		/*background-attachment: fixed;*/
+		background-position: center center;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		filter: brightness(30%);
+		z-index: -1;
+	}
+	</style>
+	<style type="text/css">* {cursor: url(http://cur.cursors-4u.net/games/gam-12/gam1179.cur), auto !important;}</style><a href="http://www.cursors-4u.com/cursor/2011/01/24/charizard-13.html" target="_blank" title="Charizard"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Charizard" style="position:absolute; top: 0px; right: 0px;" /></a>
+</head>
+<body>
+	<div class="contenedor">
+
+		<div class="titulo">
+				<header>
+						<img src="img/gifp.gif">
+						<a href="inicio.html"><h1>TAKAGI SHOW</h1></a>
+					<nav class="menu">
+						<ul>
+							<li><a href="inicio.html">INICIO</a></li>
+							<li><a href="noticias.html">NOTICIASS</a></li>
+							<li><a href="estrenos.html">ESTRENOS</a></li>
+							<li><a href="retro.html">RETRO</a></li>
+						</ul>
+					</nav>
+				</header>
+			</div>
+
+		<div class="retro4">
+
+			<div class="img4">
+				<img src="img/retro4.jpg" width="100%">
+			</div>
+
+			<div class="txt4">
+				<h3>Pac-Man</h3>
+				<p>Pac-Man s un videojuego arcade creado por el diseñador de videojuegos Toru Iwatani de la empresa Namco, y distribuido por Midway Games al mercado estadounidense a principios de los años 1980.Desde que Pac-Man fue lanzado el 21 de mayo de 1980, fue un éxito. Se convirtió en un fenómeno mundial en la industria de los videojuegos, llegó a tener el récord Guiness del videojuego de arcade más exitoso de todos los tiempos con un total de 293 822 máquinas vendidas desde 1981 hasta 1987 y acabó con el dominio de Space Invaders, donde la acción predominante era shoot 'em up (disparar a todos) para reemplazarla por un formato único, más humorístico y poco violento que gustó a muchísimas personas.</p>
+		</div>
+
+			<div class="f1">
+				<img src="img/pacmanP1.png" width="100%" onmousemove="cambio1()">
+			</div>
+
+			<div class="f2">
+				<img src="img/pacmanP2.png" width="100%" onmousemove="cambio2()">
+			</div>
+
+			<div class="f3">	
+				<img src="img/pacmanP3.jpg" width="100%" onmousemove="cambio3()">
+			</div>
+
+			<div class="f3">
+				<img src="img/pacmanP4.png" width="100%" onmousemove="cambio4()">
+			</div>
+
+			<div class="imgG">
+				<center><img id="principal" src="img/pacmanG1.png"></center>
+			</div>
+			
+		
+
+	</div>
+
+	<script type="text/javascript">
+		function cambio1() {
+			document.getElementById('principal').src="img/pacmanG1.png";
+					}
+		function cambio2() {
+			document.getElementById('principal').src="img/pacmanG2.png";
+					}
+		function cambio3() {
+			document.getElementById('principal').src="img/pacmanG3.jpg";
+					}
+		function cambio4() {
+			document.getElementById('principal').src="img/pacmanG4.png";
+					}
+	</script>
+
+</body>
+</html>

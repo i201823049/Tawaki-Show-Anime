@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TakagiShow</title>
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Sedgwick+Ave|Kaushan Script|Indie+Flower|Acme|Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css4/titulo.css">
+	<link rel="stylesheet" type="text/css" href="css4/retro3.css">
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+		text-decoration: none;
+	}
+	h1{	
+		font-size: 50px;
+		margin: 5px; 
+		font-family: 'Permanent Marker', cursive;
+		float: left;
+		color: white;			  
+	}
+	a{
+		color: white;
+	}
+	.contenedor{
+			width: 100%;
+			height: auto;
+			margin: 0 auto; 
+			
+			background-size: 100%;
+			position: relative;
+	}
+	.contenedor::before{
+		content:"";
+		top:0;
+		left: 0;
+		background-image: url(img/fondore3.jpg);
+		background-size: cover;
+		background-position: center center;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		filter: brightness(30%);
+		z-index: -1;
+	}
+	</style>
+	<style type="text/css">* {cursor: url(http://cur.cursors-4u.net/games/gam-15/gam1411.ani), url(http://cur.cursors-4u.net/games/gam-15/gam1411.gif), auto !important;}</style><a href="http://www.cursors-4u.com/cursor/2011/12/11/confused-chibi-link.html" target="_blank" title="Confused Chibi Link"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Confused Chibi Link" style="position:absolute; top: 0px; right: 0px;" /></a>
+</head>
+<body>
+	<div class="contenedor">
+		<div class="titulo">
+				<header>
+						<img src="img/gifz.png">
+						<a href="inicio.html"><h1>TAKAGI SHOW</h1></a>
+					<nav class="menu">
+						<ul>
+							<li><a href="inicio.html">INICIO</a></li>
+							<li><a href="noticias.html">NOTICIASS</a></li>
+							<li><a href="estrenos.html">ESTRENOS</a></li>
+							<li><a href="retro.html">RETRO</a></li>
+						</ul>
+					</nav>
+				</header>
+			</div>
+
+		<div class="retro3">
+
+			<div class="img3">
+				<img src="img/retro3.png" width="100%">
+			</div>
+
+			<div class="txt3">
+				<h3>The Legend of Zelda</h3>
+				<p>The Legend of Zelda s una serie de videojuegos de acción-aventura creada por los diseñadores japoneses Shigeru Miyamoto y Takashi Tezuka,1​ y desarrollada por Nintendo, empresa que también se encarga de su distribución internacional. Su trama por lo general describe las heroicas aventuras del joven guerrero Link, que debe enfrentarse a peligros y resolver acertijos para ayudar a la Princesa Zelda a derrotar a Ganondorf y salvar su hogar, el reino de Hyrule A partir del lanzamiento del primer juego en 1986, The Legend of Zelda ha logrado una notable popularidad acompañada de críticas favorables en la industria de los videojuegos.</p>
+			</div>
+
+			<div class="f1">
+				<img src="img/zeldaP1.jpg" width="100%" onmousemove="cambio1()">
+			</div>
+
+			<div class="f2">
+				<img src="img/zeldaP2.png" width="100%" onmousemove="cambio2()">
+			</div>
+
+			<div class="f3">	
+				<img src="img/zeldaP3.png" width="100%" onmousemove="cambio3()">
+			</div>
+
+			<div class="f3">
+				<img src="img/zeldaP4.jpg" width="100%" onmousemove="cambio4()">
+			</div>
+
+			<div class="imgG">
+				<center><img id="principal" src="img/zeldaG1.jpg"></center>
+			</div>
+			
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+		function cambio1() {
+			document.getElementById('principal').src="img/zeldaG1.jpg";
+					}
+		function cambio2() {
+			document.getElementById('principal').src="img/zeldaG2.png";
+					}
+		function cambio3() {
+			document.getElementById('principal').src="img/zeldaG3.png";
+					}
+		function cambio4() {
+			document.getElementById('principal').src="img/zeldaG4.jpg";
+					}
+	</script>
+</body>
+</html>

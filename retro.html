@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TakagiShow</title>
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Sedgwick+Ave|Indie+Flower|Acme|Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css4/titulo.css">
+	<link rel="stylesheet" type="text/css" href="css4/cajas.css">
+	<link rel="stylesheet" type="text/css" href="css4/pie.css">
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+		text-decoration: none;
+	}
+	h1{	
+		font-size: 50px;
+		font-family: 'Permanent Marker', cursive;
+		float: left;
+		color: white;			  
+	}
+	a{
+		color: white;
+	}
+	.contenedor{
+			width: 100%;
+			height: auto;
+			margin: 0 auto; /*centrar en el navegador*/
+			background-position: center center;
+			background-size: 100%;
+			position: absolute;
+			}
+	.contenedor::before{
+		content:"";
+		top:0;
+		left: 0;
+		background-size: cover;
+		/*background-attachment: fixed;*/
+		background-image: url(img/fondo.jpg);
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		filter: brightness(30%);
+		z-index: -1;
+		
+	}
+	</style>
+</head>
+<body>
+	
+	<div class="contenedor">
+
+			<div class="titulo">
+				<header>
+					<img src="img/gifs.gif">
+						<a href="inicio.html"><h1>TAKAGI SHOW</h1></a>
+					<nav class="menu">
+						<ul>
+							<li><a href="inicio.html">INICIO</a></li>
+							<li><a href="noticias.html">NOTICIASS</a></li>
+							<li><a href="estrenos.html">ESTRENOS</a></li>
+							<li><a href="retro.html">RETRO</a></li>
+						</ul>
+					</nav>
+				</header>
+			</div>	
+
+		<center>
+		<div class="cajas">
+
+			<a href="re1.html">
+			<div class="caja1">
+				<img src="img/retro1.jpg" width="100%">
+			</div>
+			</a>
+
+			<a href="re2.html">
+			<div class="caja1">
+				<img src="img/retro2.jpg" width="100%">
+			</div>
+			</a>
+
+			<a href="re3.html">
+			<div class="caja1">
+				<img src="img/retro3.png" width="100%">
+			</div>
+			</a>
+			<center>
+			<a href="re4.html">
+			<div class="caja1">
+				<img src="img/retro4.jpg" width="100%">
+			</div>
+			</a>
+
+			<a href="re5.html">
+			<div class="caja1">
+				<img src="img/retro5.jpg" width="100%">
+			</div>
+			</a>
+
+			<a href="re6.html">
+			<div class="caja1">
+				<img src="img/retro6.jpg" width="100%">
+			</div>
+			</a>
+			</center>
+		</div>
+		</center>
+
+		<br>
+	<div class="pie">
+		<center>
+		<h3>Takagi Show</h3>
+		<p>@Takagi Show desde mi casa 2019-2019 Todos los derechos reservados SOBRE TAKAGI SHOW</p>
+		</center>
+	</div>
+
+	</div>
+</body>
+</html>

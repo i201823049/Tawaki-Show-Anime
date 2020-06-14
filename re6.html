@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TakagiShow</title>
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Sedgwick+Ave|Kaushan Script|Indie+Flower|Acme|Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css4/titulo.css">
+	<link rel="stylesheet" type="text/css" href="css4/retro6.css">
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+		text-decoration: none;
+	}
+	h1{	
+		font-size: 50px;
+		margin: 5px; 
+		font-family: 'Permanent Marker', cursive;
+		float: left;
+		color: white;			  
+	}
+	a{
+		color: white;
+	}
+	.contenedor{
+			width: 100%;
+			height: auto;
+			margin: 0 auto;
+			
+			background-size: 100%;
+			position: relative;
+	}
+	.contenedor::before{
+		content:"";
+		top:0;
+		left: 0;
+		background-image: url(img/fondore6.jpg);
+		background-size: cover;
+		/*background-attachment: fixed;*/
+		background-position: center center;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		filter: brightness(30%);
+		z-index: -1;
+	}
+	</style>
+	<style type="text/css">* {cursor: url(http://cur.cursors-4u.net/games/gam-1/gam62.cur), auto !important;}</style><a href="http://www.cursors-4u.com/cursor/2006/03/26/gam62.html" target="_blank" title="Mario"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Mario" style="position:absolute; top: 0px; right: 0px;" /></a>
+</head>
+<body>
+	<div class="contenedor">
+		
+		<div class="titulo">
+				<header>
+						<img src="img/gifma.gif">
+						<a href="inicio.html"><h1>TAKAGI SHOW</h1></a>
+					<nav class="menu">
+						<ul>
+							<li><a href="inicio.html">INICIO</a></li>
+							<li><a href="noticias.html">NOTICIASS</a></li>
+							<li><a href="estrenos.html">ESTRENOS</a></li>
+							<li><a href="retro.html">RETRO</a></li>
+						</ul>
+					</nav>
+				</header>
+			</div>
+		<div class="retro6">
+
+			<div class="img6">
+				<img src="img/retro6.jpg" width="100%">
+			</div>
+
+			<div class="txt6">
+				<h3>Super Mario Bros</h3>
+				<p>Super Mario Bros. o Super Mario Brothers es un videojuego de plataformas, diseñado por Shigeru Miyamoto, lanzado el 13 de septiembre de 1985 y producido por la compañía Nintendo, para la consola Nintendo Entertainment System (NES). El juego describe las aventuras de los hermanos Mario y Luigi, personajes que ya protagonizaron el arcade Mario Bros. de 1983. En esta ocasión ambos deben rescatar a la Princesa Peach del Reino Champiñón que fue secuestrada por el rey de los Koopas, Bowser. A través de ocho diferentes mundos, los jugadores pueden controlar a alguno de los dos hermanos y deben enfrentarse finalmente tras los niveles correspondientes de cada mundo a los monstruos de cada castillo para liberar a Peach.</p>
+		</div>
+
+			<div class="f1">
+				<img src="img/marioP1.jpg" width="100%" onmousemove="cambio1()">
+			</div>
+
+			<div class="f2">
+				<img src="img/marioP2.jpg" width="100%" onmousemove="cambio2()">
+			</div>
+
+			<div class="f3">	
+				<img src="img/marioP3.png" width="100%" onmousemove="cambio3()">
+			</div>
+
+			<div class="f3">
+				<img src="img/marioP4.jpg" width="100%" onmousemove="cambio4()">
+			</div>
+
+			<div class="imgG">
+				<center><img id="principal" src="img/marioG1.jpg"></center>
+			</div>
+
+	</div>
+</body>
+			<script type="text/javascript">
+					function cambio1() {
+						document.getElementById('principal').src="img/marioG1.jpg";
+								}
+					function cambio2() {
+						document.getElementById('principal').src="img/marioG2.jpg";
+								}
+					function cambio3() {
+						document.getElementById('principal').src="img/marioG3.png";
+								}
+					function cambio4() {
+						document.getElementById('principal').src="img/marioG4.jpg";
+								}
+				</script>
+</html>

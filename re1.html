@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TakagiShow</title>
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Sedgwick+Ave|Kaushan Script|Indie+Flower|Acme|Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css4/titulo.css">
+	<link rel="stylesheet" type="text/css" href="css4/retro1.css">
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+		text-decoration: none;
+	}
+	h1{	
+		font-size: 50px;
+		margin: 5px; 
+		font-family: 'Permanent Marker', cursive;
+		float: left;
+		color: white;			  
+	}
+	a{
+		color: white;
+	}
+	.contenedor{
+			width: 100%;
+			height: auto;
+			margin: 0 auto; 
+			/*centrar en el navegador*/
+			/*background-image: url(img/fondore1.jpg);
+			background-repeat: no-repeat;*/
+			
+			background-size: 100%;
+			position: relative;
+
+	}
+	.contenedor::before{
+		content:"";
+		top:0;
+		left: 0;
+		background-image: url(img/fondore1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		filter: brightness(30%);
+		z-index: -1;
+	}
+	</style>
+	<style type="text/css">* {cursor: url(http://cur.cursors-4u.net/user/use-1/use174.ani), url(http://cur.cursors-4u.net/user/use-1/use174.png), auto !important;}</style><a href="http://www.cursors-4u.com/cursor/2011/02/06/animated-sonic.html" target="_blank" title="Animated Sonic"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Animated Sonic" style="position:absolute; top: 0px; right: 0px;" /></a>
+</head>
+<body>
+	<div class="contenedor">
+
+		<div class="titulo">
+				<header>
+						<img src="img/gifs.gif">
+						<a href="inicio.html"><h1>TAKAGI SHOW</h1></a>
+					<nav class="menu">
+						<ul>
+							<li><a href="inicio.html">INICIO</a></li>
+							<li><a href="noticias.html">NOTICIASS</a></li>
+							<li><a href="estrenos.html">ESTRENOS</a></li>
+							<li><a href="retro.html">RETRO</a></li>
+						</ul>
+					</nav>
+				</header>
+			</div>
+
+		<div class="retro1">
+
+			<div class="img1">
+			<img src="img/retro1.jpg" width="100%">
+			</div>
+
+			<div class="txt1">
+				<h3>Sonic the Hedgehog</h3>
+				<p> es un personaje de ficción, protagonista de la saga de videojuegos del mismo nombre y la mascota creada por y para Sega. Es el personaje principal de la saga con su mismo nombre; también está presente en cómics, dibujos animados y libros. El primer videojuego de esta franquicia fue creado en 1991, para competir con los videojuegos de la mascota de Nintendo: Mario, reemplazando a Alex Kidd. Sonic es un erizo azul antropomórfico que (según la versión de los cómics y juegos) tiene la habilidad de correr a la velocidad del sonido, una característica que se muestra en la mayoría de sus juegos siendo, además, su seña de identidad, conforme ha pasado el tiempo Sonic ha ido desarrollando su velocidad a tal punto que ha alcanzado la velocidad de la luz2​ e incluso ha podido superarla.</p>
+			</div>
+
+			<div class="f1">
+				<img src="img/sonicP1.jpg" width="100%" onmousemove="cambio1()">
+			</div>
+
+			<div class="f2">
+				<img src="img/sonicP2.jpg" width="100%" onmousemove="cambio2()">
+			</div>
+
+			<div class="f3">	
+				<img src="img/sonicP3.png" width="100%" onmousemove="cambio3()">
+			</div>
+
+			<div class="f3">
+				<img src="img/sonicP4.png" width="100%" onmousemove="cambio4()">
+			</div>
+
+			<div class="imgG">
+				<center><img id="principal" src="img/sonicG1.jpg"></center>
+			</div>
+		</div>	
+
+			
+
+	</div>
+
+	<script type="text/javascript">
+		function cambio1() {
+			document.getElementById('principal').src="img/sonicG1.jpg";
+					}
+		function cambio2() {
+			document.getElementById('principal').src="img/sonicG2.jpg";
+					}
+		function cambio3() {
+			document.getElementById('principal').src="img/sonicG3.png";
+					}
+		function cambio4() {
+			document.getElementById('principal').src="img/sonicG4.png";
+					}
+	</script>
+</body>
+</html>

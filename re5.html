@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TakagiShow</title>
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Sedgwick+Ave|Kaushan Script|Indie+Flower|Acme|Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css4/titulo.css">
+	<link rel="stylesheet" type="text/css" href="css4/retro5.css">
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+		text-decoration: none;
+	}
+	h1{	
+		font-size: 50px;
+		margin: 5px; 
+		font-family: 'Permanent Marker', cursive;
+		float: left;
+		color: white;			  
+	}
+	a{
+		color: white;	
+	}
+	.contenedor{
+			width: 100%;
+			height: auto;
+			margin: 0 auto;
+			
+			background-size: 100%;
+			position: relative;
+	}
+	.contenedor::before{
+		content:"";
+		top:0;
+		left: 0;
+		background-image: url(img/fondore5.jpeg);
+		background-size: cover;
+		/*background-attachment: fixed;*/
+		background-position: center center;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		filter: brightness(30%);
+		z-index: -1;
+	}
+	</style>
+	<style type="text/css">* {cursor: url(http://cur.cursors-4u.net/games/gam-11/gam1025.cur), auto !important;}</style><a href="http://www.cursors-4u.com/cursor/2009/11/30/call-of-duty-circle.html" target="_blank" title="Call Of Duty Circle"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Call Of Duty Circle" style="position:absolute; top: 0px; right: 0px;" /></a>
+</head>
+<body>
+	<div class="contenedor">
+		
+		<div class="titulo">
+				<header>
+						<img src="img/gifc.gif">
+						<a href="inicio.html"><h1>TAKAGI SHOW</h1></a>
+					<nav class="menu">
+						<ul>
+							<li><a href="inicio.html">INICIO</a></li>
+							<li><a href="noticias.html">NOTICIASS</a></li>
+							<li><a href="estrenos.html">ESTRENOS</a></li>
+							<li><a href="retro.html">RETRO</a></li>
+						</ul>
+					</nav>
+				</header>
+			</div>
+
+		<div class="retro5">
+
+			<div class="img5">
+				<img src="img/retro5.jpg" width="100%">
+			</div>
+
+			<div class="txt5">
+				<h3>Contra</h3>
+				<p>Contra es un videojuego de acción y plataformas desarrollado por Konami para máquinas recreativas en 1987, y más tarde llevado a diversas plataformas, como la NES de Nintendo y la MSX 2. Fue el primer juego de la saga de videojuegos Contra. La versión europea arcade y de la NES se denominó Gryzor y Probotector, respectivamente. La versión europea arcade apareció sin censura ni renombre en el compilado Konami Classics Series: Arcade Hits, mundialmente lanzado en el 2007 para Nintendo DS.
+				En el 2631, un meteorito cayó en el archipiélago Galuga, cerca de Nueva Zelanda, trayendo una forma de vida alienígena inactiva. Dos años después, en 2633, una organización terrorista de origen alienígena llamada Falcón de Sangre.</p>
+		</div>
+
+			<div class="f1">
+				<img src="img/contraP1.png" width="100%" onmousemove="cambio1()">
+			</div>
+
+			<div class="f2">
+				<img src="img/contraP2.png" width="100%" onmousemove="cambio2()">
+			</div>
+
+			<div class="f3">	
+				<img src="img/contraP3.jpg" width="100%" onmousemove="cambio3()">
+			</div>
+
+			<div class="f3">
+				<img src="img/contraP4.jpg" width="100%" onmousemove="cambio4()">
+			</div>
+
+			<div class="imgG">
+				<center><img id="principal" src="img/contraG1.png"></center>
+			</div>
+
+	</div>
+
+</body>
+			<script type="text/javascript">
+					function cambio1() {
+						document.getElementById('principal').src="img/contraG1.png";
+								}
+					function cambio2() {
+						document.getElementById('principal').src="img/contraG2.png";
+								}
+					function cambio3() {
+						document.getElementById('principal').src="img/contraG3.jpg";
+								}
+					function cambio4() {
+						document.getElementById('principal').src="img/contraG4.jpg";
+								}
+				</script>
+</html>

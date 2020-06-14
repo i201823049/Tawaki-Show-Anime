@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>TakagiShow</title>
+	<link href="https://fonts.googleapis.com/css?family=Bangers|Sedgwick+Ave|Kaushan Script|Indie+Flower|Acme|Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css3/titulo.css">
+	<link rel="stylesheet" type="text/css" href="css3/cajas.css">
+	<link rel="stylesheet" type="text/css" href="css3/pie.css">
+	
+	<link rel="stylesheet" type="text/css" href="jquery/jquery.fullpage.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script src="jquery/jquery.fullpage.js"></script>
+
+	<style type="text/css">
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+		text-decoration: none;
+	}
+	h1{	
+		font-size: 50px;
+		margin: 5px; 
+		font-family: 'Permanent Marker', cursive;
+		float: left;
+		color: white;			  
+	}
+	a{
+		color: white;
+	}
+	.contenedor{
+		width: 100%;
+		height: auto;
+		margin: 0 auto; 
+		position: relative;
+	}
+	p{
+		text-align: center;
+		color: white;
+		font-size: 20px;
+		font-family: 'Indie Flower', cursive;
+		padding-top: 20%;
+	}
+	h2{
+		padding: 10px;
+		font-size: 40px;
+		color: white;
+		font-family: 'Permanent Marker', cursive;
+	}
+	.back a{
+		font-size: 20px;
+		background-color: red;
+		border-radius: 10px;
+		padding:10px; 
+	}
+	.back2 a{
+		font-size: 20px;
+		background-color: red;
+		border-radius: 10px;
+		padding:10px; 
+	}
+	.back3 a{
+		font-size: 20px;
+		background-color: red;
+		border-radius: 10px;
+		padding:10px; 
+	}
+	.back4 a{
+		font-size: 20px;
+		background-color: red;
+		border-radius: 10px;
+		padding:10px; 
+	}
+	.back5 a{
+		font-size: 20px;
+		background-color: red;
+		border-radius: 10px;
+		padding:10px; 
+	}
+	.back6 a{
+		font-size: 20px;
+		background-color: red;
+		border-radius: 10px;
+		padding:10px; 
+	}
+	.back7 a{
+		font-size: 20px;
+		background-color: red;
+		border-radius: 10px;
+		padding:10px; 
+	}
+	.back8 a{
+		font-size: 20px;
+		background-color: red;
+		border-radius: 10px;
+		padding:10px; 
+	}
+	.back9 a{
+		font-size: 20px;
+		background-color: red;
+		border-radius: 10px;
+		padding:10px; 
+	}
+	.back10 a{
+		font-size: 20px;
+		background-color: red;
+		border-radius: 10px;
+		padding:10px; 
+	}
+	.back11 a{
+		font-size: 20px;
+		background-color: red;
+		border-radius: 10px;
+		padding:10px; 
+	}
+	.back12 a{
+		font-size: 20px;
+		background-color: red;
+		border-radius: 10px;
+		padding:10px; 
+	}
+
+	.cajas1{
+		width: 100%;
+		height: 900px;
+		background-size: 100%;
+		position: relative;
+		
+	}
+	.cajas1::before{
+		content:"";
+		top:0;
+		left: 0;
+		background-image: url(img/xbox.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		filter: brightness(30%);
+		z-index: -1;
+	}
+
+
+	.cajas2{
+		width: 100%;
+		height: 900px;
+		background-size: 100%;
+		position: relative;
+		clear: both;
+	}
+	.cajas2::before{
+		content:"";
+		top:0;
+		left: 0;
+		background-image: url(img/play.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		filter: brightness(30%);
+		z-index: -1;
+	}
+
+
+	.cajas3{
+		width: 100%;
+		height: 900px;
+		background-size: 100%;
+		position: relative;
+		clear: both;
+	}
+	.cajas3::before{
+		content:"";
+		top:0;
+		left: 0;
+		background-image: url(img/switch.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		filter: brightness(30%);
+		z-index: -1;
+	}
+
+
+	.cajas4{
+		width: 100%;
+		height: 900px;
+		
+		background-size: 100%;
+		position: relative;
+		clear: both;
+	}
+	.cajas4::before{
+		content:"";
+		top:0;
+		left: 0;
+		background-image: url(img/pc.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		filter: brightness(30%);
+		z-index: -1;
+	}
+
+	</style>
+	<style type="text/css">* {cursor: url(http://cur.cursors-4u.net/anime/ani-10/ani937.ani), url(http://cur.cursors-4u.net/anime/ani-10/ani937.png), auto !important;}</style><a href="http://www.cursors-4u.com/cursor/2009/05/02/animated-dancing-akatsuki-tobi.html" target="_blank" title="Naruto - Animated Dancing Akatsuki Tobi"><img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Naruto - Animated Dancing Akatsuki Tobi" style="position:absolute; top: 0px; right: 0px;" /></a>
+</head>
+<body>
+
+	<div class="contenedor">
+		<div >
+		<div class="titulo">
+			<header>
+					<img src="img/descarga.gif">
+					<a href="inicio.html"><h1>TAKAGI SHOW</h1></a>
+				<nav class="menu">
+					<ul>
+						<li><a href="inicio.html">INICIO</a></li>
+						<li><a href="noticias.html">NOTICIASS</a></li>
+						<li><a href="estrenos.html">ESTRENOS</a></li>
+						<li><a href="retro.html">RETRO</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+
+			
+
+	
+	<div class="cajas1">
+
+		<h2 id="es1">XBOX ONE</h2>
+
+		<div class="caja1">
+			<div class="card middle">
+				<div class="front">
+					<img src="img/estrenos1.jpg" width="100%" py-5">
+				</div>
+
+				<div class="back">
+					<div class="back-content middle">
+						<center>
+						<p>Vambrace: Cold Soul es un videojuego de rol y combates por turnos, con mecánicas inspiradas por títulos como Darkest Dungeon, que lleva al jugador a organizar expediciones subterráneas y viajar a la superficie de una ciudad maldidad con un grupo de héroes en un mundo helado de fantasía.
+						</p></center>
+						<br>
+						<center><a href="es1.html">Leer mas</a></center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="caja2">
+			<div class="card2 middle2">
+				<div class="front2">
+					<img src="img/estrenos2.jpg" width="100%">
+				</div>
+
+				<div class="back2">
+					<div class="back-content2 middle2">
+						<p>El videojuego de la tercera temporada de Attack on Titan. La batalla por la supervivencia de la humanidad prosigue, y Eren, Armin y Mikasa siguen colaborando para garantizar la victoria ante los titanes. Basado en el manga y anime creado por Hajime Isayama.
+						</p>
+						<br>
+						<center><a href="es2.html">Leer mas</a></center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="caja3">
+			<div class="card3 middle3">
+				<div class="front3">
+					<img src="img/estrenos3.jpg" width="100%">
+				</div>
+
+				<div class="back3">
+					<div class="back-content3 middle3">
+						<p>Follia - Dear Father es presenta como un survival horror, con soporte para dispositivos de realidad virtual, que captura la atmósfera de este género y la transporta a los pasillos y aulas de un campus universitario. Así, el videojuego propone tomar el papel de un joven, llamado Marcus.
+						</p>
+						<br>
+						<center><a href="es3.html">Leer mas</a></center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>	
+<!--Fin de la caja 1-->	
+
+	<div class="cajas2">
+		
+		<h2 id="es2">PLAY STAIN 4</h2>
+
+		<div class="caja1">
+			<div class="card middle">
+				<div class="front">
+					<img src="img/estrenos4.png" width="100%" py-5">
+				</div>
+
+				<div class="back">
+					<div class="back-content middle">
+						<p>El videojuego de culto Catherine debuta en la generación de PlayStation 4 con esta versión del título de Atlus para PS4 y PS Vita llamada Catherine: Full Body. Todo el erotismo de la aventura de Vincent para descubrir el verdadero amor entre dos mujeres que no podrían ser más distintas.
+						</p>
+						<br>
+						<center><a href="es4.html">Leer mas</a></center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="caja2">
+			<div class="card2 middle2">
+				<div class="front2">
+					<img src="img/estrenos5.jpg" width="100%">
+				</div>
+
+				<div class="back2">
+					<div class="back-content2 middle2">
+						<p>Atelier Lulua es la nueva aventura de acción y rol basada en esta conocida saga de Gust Co, que inicia la historia de un personaje completamente original en la serie, tomando prestados elementos de juego de otros capítulos de la franquicia como la saga Arland.
+						</p>
+						<br>
+						<center><a href="es5.html">Leer mas</a></center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="caja3">
+			<div class="card3 middle3">
+				<div class="front3">
+					<img src="img/estrenos6.jpg" width="100%">
+				</div>
+
+				<div class="back3">
+					<div class="back-content3 middle3">
+						<p>Madden NFL 20 es la entrega para temporada de 2019-2020 de la máxima competición del fútbol americano. Se presenta con varias novedades, entre ellas el nuevo modo QB1 que invita al jugador a crear su propio quarterback universitario y llevarlo a ser la imagen de toda una franquicia de NFL.
+						</p>
+						<br>
+						<center><a href="es6.html">Leer mas</a></center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+<!--Final de la caja 2-->
+	
+	<div class="cajas3">
+		
+		<h2 id="es3">SWITCH</h2>
+		
+			<div class="caja1">
+			<div class="card middle">
+				<div class="front">
+					<img src="img/estrenos7.jpg" width="100%">
+				</div>
+
+				<div class="back">
+					<div class="back-content middle">
+						<p>Sword Art Online: Hollow Realization es una aventura de rol basada en esta popular franquicia. El videojuego, que podría definirse como un JRPG con la profundidad de un MMO, nos transporta a una nueva realidad virtual donde profundizamos en los recuerdos del pasado del protagonista de la aventura, Kirito.
+						</p>
+						<br>
+						<center><a href="es7.html">Leer mas</a></center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="caja2">
+			<div class="card2 middle2">
+				<div class="front2">
+					<img src="img/estrenos8.jpg" width="100%">
+				</div>
+
+				<div class="back2">
+					<div class="back-content2 middle2">
+						<p>Super Mario Maker 2 se estrena en Nintendo Switch ofreciendo a los jugadores la posibilidad de crear los niveles de Super Mario con los que siempre han soñado. El juego SMM2 cuenta con más herramientas, objetos y funciones que las vistas en Super Mario Maker.
+						</p>
+						<br>
+						<center><a href="es8.html">Leer mas</a></center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="caja3">
+			<div class="card3 middle3">
+				<div class="front3">
+					<img src="img/estrenos9.jpg" width="100%">
+				</div>
+
+				<div class="back3">
+					<div class="back-content3 middle3">
+						<p>Recoge las armas y destruye a todo lo que se cruce por tu camino en My Friend Pedro, un videojuego de acción y disparos donde a instancias de un plátano inteligente se garantiza al jugador explosivas batallas en dos dimensiones con un personaje capaz de realizar movimientos acrobáticos.
+						</p>
+						<br>
+						<center><a href="es9.html">Leer mas</a></center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+<!--Fin de la caja3 -->
+
+	<div class="cajas4">
+		
+		<h2 id="es4">PC</h2>
+		
+			<div class="caja">
+			<div class="card middle">
+				<div class="front">
+					<img src="img/estrenos10.png" width="100%">
+				</div>
+
+				<div class="back">
+					<div class="back-content middle">
+						<p>El terror psicológico de Layers of Fear regresa con esta secuela desarrolalda por Bloober Team, autores también de Observer, que nos propone explorar y sobrevivir a los terrores que habitan en un barco. Layers of Fear 2 fue conocido durante un tiempo como Project Melies.
+						</p>
+						<br>
+						<center><a href="es10.html">Leer mas</a></center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="caja2">
+			<div class="card2 middle2">
+				<div class="front2">
+					<img src="img/estrenos11.jpg" width="100%">
+				</div>
+
+				<div class="back2">
+					<div class="back-content2 middle2">
+						<p>Other Ocean presenta Project Winter: una particular propuesta de supervivencia multijugador con un componente social único donde los jugadores deben formar grupo y repartir tareas para sobrevivir al invierno. Sin embargo, entre los ocho jugadores que participan en cada partida hay dos roles.
+						</p>
+						<br>
+						<center><a href="es11.html">Leer mas</a></center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="caja3">
+			<div class="card3 middle3">
+				<div class="front3">
+					<img src="img/estrenos12.jpg" width="100%">
+				</div>
+
+				<div class="back3">
+					<div class="back-content3 middle3">
+						<p>Our World Is Ended es una novela visual cuyo argumento nace de la premisa de ¿y si el mundo del juego se estuviese fusionando con la vida real? En esta idea, la aventura de Red Entertainment anima al jugador a seguir a un grupo de desarrolladores atrapados entre la realidad y sus mundos de ficción.
+						</p>
+						<br>
+						<center><a href="es12.html">Leer mas</a></center>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+<!--FINAL DE CAJA4-->
+		
+	<div class="pie">
+		<center>
+			<h3>Takagi Show @Takagi Show desde mi casa 2019-2019 Todos los derechos reservados SOBRE TAKAGI SHOW</h3>
+		</center>
+	</div>
+
+	</div>
+
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage();
+
+		});
+	</script>
+
+</body>
+</html>
