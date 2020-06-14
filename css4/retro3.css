@@ -1,0 +1,102 @@
+.retro3{
+	width: 80%;
+	height: auto;
+	margin-left: 18%;
+	padding: 20px;
+	clear: both;
+}
+.img3{
+	width:35%;
+	height:50%;
+	float: left;
+}
+.img3 img{
+	border: 5px solid white;
+	border-radius: 5%;
+}
+
+
+.txt3{
+	width: 35%;
+	height:50%;
+	float: left;
+	background-color: rgba(255,0,0,0.2);
+	margin-left: 5%;
+	padding: 20px;
+	border: 5px solid white;
+	border-radius: 5%;
+}
+.txt3 h3{
+	color: white;
+	height: auto;
+	font-size: 45px;
+	font-family: 'Kaushan Script', cursiva;
+}
+.txt3 p{
+	height: auto;
+	color: white;
+	font-size: 25px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.f1{
+	width: 20%;
+	height: auto;
+	float: left;
+	clear: both;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	
+}
+.f1 img{
+	border: 5px solid white;
+}
+
+.f2{
+
+	width: 20%;
+	height: auto;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.f2 img{
+	border: 5px solid white;
+}
+
+.f3{
+
+	width: 20%;
+	height: auto;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.f3 img{
+	border: 5px solid white;
+}
+
+.f4{
+
+	width: 20%;
+	height: auto;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+.f4 img{
+	border: 5px solid white;
+}
+
+.imgG{
+	width: 100%;
+	clear: both;
+	margin-left: -5%; 
+}
+.imgG img{
+	border: 5px solid white;
+}

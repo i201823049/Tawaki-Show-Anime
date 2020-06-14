@@ -1,0 +1,19 @@
+*{
+	color: white;
+}
+.pie{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	background-color: black;
+	clear: both;
+}
+.pie h3{
+	text-align: center;
+	display: inline-block;
+}
+.pie p{
+	text-align: center;
+	display: inline-block;
+
+}

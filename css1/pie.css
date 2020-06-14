@@ -1,0 +1,16 @@
+.pie{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	padding: 10px;
+	color: white;
+}
+.pie h3{
+	text-align: center;
+	display: inline-block;
+}
+.pie p{
+	text-align: center;
+	display: inline-block;
+
+}

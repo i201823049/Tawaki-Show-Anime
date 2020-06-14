@@ -1,0 +1,64 @@
+.todo{
+	width: 80%;
+	height: auto;
+}
+.arriba{
+	width: 100%;
+	height: auto;
+	clear: both;
+	margin-bottom: 2%;
+}
+.arriba h2{
+	padding: 10px;
+	font-size: 45px;
+	font-family: 'Permanent Marker', cursive;
+	color: white;
+
+}
+.arriba p{
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+	color: white;
+	font-family: 'Kaushan Script', cursiva;
+}
+.arriba img{
+		width: 50%;
+		height: 200px;
+		border-radius: 10px;
+		-webkit-box-shadow: -10px 10px 15px 5px rgba(0,0,0,0.66);
+		-moz-box-shadow: -10px 10px 15px 5px rgba(0,0,0,0.66);
+		box-shadow: -10px 10px 15px 5px rgba(0,0,0,0.66);
+}
+/**/
+
+.medio{
+	width: 100%;
+	height: auto;
+	border-bottom:1px solid white; 
+	border-top:1px solid white;
+}
+.medio p{
+	padding: 20px;
+	font-size: 20px;
+	font-family: 'Indie Flower', cursive;
+	color: white;
+}
+
+/**/
+
+.abajo{
+	margin-top: 2%;
+	width: 100%;
+	height: auto;
+}
+.abajo video{
+	width: 80%;
+	background-color: black;
+}
+.abajo p{
+	padding: 20px;
+	font-size: 20px;
+	font-family: 'Indie Flower', cursive;
+	color: white;
+}

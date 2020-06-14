@@ -1,0 +1,678 @@
+.caja1{
+	width: 100%;
+  height: auto;
+  margin-left: 10%;
+}
+.middle{
+	width: 100%;
+	height: 80%;
+	position: absolute;
+
+	transform: translate(25%,0%);
+
+	}
+.card{
+  cursor: pointer;
+  padding-top: 3%;
+  width: 360px;
+  height: 75%;
+
+}
+.front,.back{
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+
+}
+.front img{
+  height: 100%;
+
+}
+.front{
+  	transform: perspective(600px) rotateY(0deg);
+}
+.back{
+  background: black;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content{
+  color: #2c3e50;
+  padding: 2px;
+  padding-top: 10px;
+  width: 65%;
+}
+.card:hover > .front{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card:hover > .back{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+/* CAJA2 */
+
+.caja2{
+  width: 100%;
+  height: auto;
+  margin-left:37%;
+}
+.middle2{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  
+  transform: translate(25%,0%);
+
+  }
+.card2{
+  padding-top: 3%;
+  cursor: pointer;
+ width: 360px;
+  height: 75%;
+}
+.front2,.back2{
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+
+}
+.front2 img{
+  height: 100%;
+
+}
+.front2{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back2{
+  background: black;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content2{
+  color: #2c3e50;
+  padding: 2px;
+  padding-top: 15px;
+  width: 65%;
+}
+.card2:hover > .front2{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card2:hover > .back2{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+/*CAJA3*/
+
+.caja3{
+  width: 100%;
+  height: auto;
+  margin-left:65%;
+
+}
+.middle3{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  
+  transform: translate(25%,0%);
+
+  }
+.card3{
+  padding-top: 3%;
+  cursor: pointer;
+  width: 360px;
+  height: 75%;
+}
+.front3,.back3{
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+
+}
+.front3 img{
+  height: 100%;
+
+}
+.front3{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back3{
+  background: black;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content3{
+  color: #2c3e50;
+  padding: 2px;
+  padding-top: 15px;
+  width: 65%;
+}
+.card3:hover > .front3{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card3:hover > .back3{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CAJA4*/
+
+.caja4{
+  width: 31%;
+  height: auto;
+
+}
+.middle4{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  transform: translate(25%,0%);
+
+  }
+.card4{
+  cursor: pointer;
+  width: 370px;
+  height:75%;
+}
+.front4,.back4{
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+
+}
+.front4 img{
+  height: 100%;
+
+}
+.front4{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back4{
+  background: black;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content4{
+  color: #2c3e50;
+  padding: 2px;
+  padding-top: 15px;
+  width: 65%;
+}
+.card4:hover > .front4{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card4:hover > .back4{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+/*Caja 5*/
+
+.caja5{
+  width: 100%;
+  height: auto;
+  margin-left: 32%;
+
+}
+.middle5{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  transform: translate(25%,0%);
+
+  }
+.card5{
+  cursor: pointer;
+  width: 370px;
+  height: 75%;
+}
+.front5,.back5{
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+
+}
+.front5 img{
+  height: 100%;
+
+}
+.front5{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back5{
+  background: black;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content5{
+  color: #2c3e50;
+  padding: 2px;
+  padding-top: 15px;
+  width: 65%;
+}
+.card5:hover > .front5{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card5:hover > .back5{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+/*Caja 6*/
+.caja6{
+  width: 100%;
+  height: auto;
+  margin-left: 63%;
+
+}
+.middle6{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  transform: translate(25%,0%);
+
+  }
+.card6{
+  cursor: pointer;
+  width: 370px;
+  height: 75%;
+}
+.front6,.back6{
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+
+}
+.front6 img{
+  height: 100%;
+
+}
+.front6{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back6{
+  background: black;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content6{
+  color: #2c3e50;
+  padding: 2px;
+  padding-top: 15px;
+  width: 65%;
+}
+.card6:hover > .front6{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card6:hover > .back6{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+/*CAJA7*/
+
+.caja7{
+  width: 100%;
+  height: auto;
+
+}
+.middle7{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  transform: translate(25%,0%);
+
+  }
+.card7{
+  cursor: pointer;
+  width: 370px;
+  height: 75%;
+}
+.front7,.back7{
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+
+}
+.front7 img{
+  height: 100%;
+
+}
+.front7{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back7{
+  background: black;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content7{
+  color: #2c3e50;
+  padding: 2px;
+  padding-top: 15px;
+  width: 65%;
+}
+.card7:hover > .front7{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card7:hover > .back7{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+/*CAJA8*/
+
+.caja8{
+  width: 100%;
+  height: auto;
+  margin-left:32%;
+
+}
+.middle8{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  transform: translate(25%,0%);
+
+  }
+.card8{
+  cursor: pointer;
+  width: 370px;
+  height: 75%;
+}
+.front8,.back8{
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+
+}
+.front8 img{
+  height: 100%;
+
+}
+.front8{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back8{
+  background: black;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content8{
+  color: #2c3e50;
+  padding: 2px;
+  padding-top: 15px;
+  width: 65%;
+}
+.card8:hover > .front8{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card8:hover > .back8{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+/* CAJA9 */
+
+.caja9{
+  width: 100%;
+  height: auto;
+  margin-left: 63%;
+
+}
+.middle9{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+
+  transform: translate(25%,0%);
+
+  }
+.card9{
+  cursor: pointer;
+  width: 370px;
+  height: 75%;
+}
+.front9,.back9{
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+
+}
+.front9 img{
+  height: 100%;
+
+}
+.front9{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back9{
+  background: black;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content9{
+  color: #2c3e50;
+  padding: 2px;
+  padding-top: 15px;
+  width: 65%;
+}
+.card9:hover > .front9{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card9:hover > .back9{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+/* CAJA10 */
+
+.caja10{
+  width: 100%;
+  height: auto;
+
+}
+.middle10{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  transform: translate(25%,0%);
+
+  }
+.card10{
+  cursor: pointer;
+  width: 370px;
+  height: 75%;
+}
+.front10,.back10{
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+
+}
+.front10 img{
+  height: 100%;
+
+}
+.front10{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back10{
+  background: black;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content10{
+  color: #2c3e50;
+  padding: 2px;
+  padding-top: 15px;
+  width: 65%;
+}
+.card10:hover > .front10{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card10:hover > .back10{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+/* CAJA11 */
+
+.caja11{
+  width: 100%;
+  height: auto;
+  margin-left: 32%;
+
+}
+.middle11{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  transform: translate(25%,0%);
+
+  }
+.card11{
+  cursor: pointer;
+  width: 390px;
+  height: 75%;
+}
+.front11,.back11{
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+
+}
+.front11 img{
+  height: 100%;
+
+}
+.front11{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back11{
+  background: black;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content11{
+  color: #2c3e50;
+  padding: 2px;
+  padding-top: 15px;
+  width: 65%;
+}
+.card11:hover > .front11{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card11:hover > .back11{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+/* CAJA12 */
+
+.caja12{
+  width: 100%;
+  height: auto;
+  margin-left: 63%;
+
+}
+.middle12{
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  transform: translate(25%,0%);
+
+  }
+.card12{
+  cursor: pointer;
+  width: 370px;
+  height: 75%;
+}
+.front12,.back12{
+  width: 90%;
+  height: 90%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+
+}
+.front12 img{
+  height: 100%;
+
+}
+.front12{
+    transform: perspective(600px) rotateY(0deg);
+}
+.back12{
+  background: black;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content12{
+  color: #2c3e50;
+  padding: 2px;
+  padding-top: 15px;
+  width: 65%;
+}
+.card12:hover > .front12{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card12:hover > .back12{
+  transform: perspective(600px) rotateY(0deg);
+}

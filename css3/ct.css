@@ -1,0 +1,136 @@
+.ct{
+	width: 100%;
+	height: 12%;
+	margin-bottom: 2%;
+	clear: both;
+	
+}
+.ct h2{
+	font-family: 'Permanent Marker', cursive;
+	color: white;
+	font-size: 35px;
+	padding: 10px;
+}
+.cb1{
+	width: 25%;
+	height: 12%;
+	float: left;
+}
+.cb2{
+	width: 25%;
+	height: 12%;
+	float: left;
+
+}
+.g{
+	width: 25%;
+	height: 12%;
+	float: left;
+}
+.g img{
+	width: 100%;
+	height: 10%;
+	padding: 10px;
+}
+.txt{
+	width: 25%;
+	height: 12%;
+	float: left;
+	padding: 15px;
+}
+.nom{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	border-bottom: 2px dotted white;
+}
+.nom h2{
+	font-size: 26px;
+	color: white;
+}
+.txt1{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	border-bottom: 2px dotted white;
+}
+.txt1 h4{
+	color: white;
+	font-size: 15px;
+	font-family: 'Permanent Marker', cursive;
+}
+.txt1 p{
+	color: white;
+	font-size: 15px;
+	font-family: 'Indie Flower', cursive;
+}
+.txt2{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	border-bottom: 2px dotted white;
+}
+.txt2 h4{
+	color: white;
+	font-size: 15px;
+	font-family: 'Permanent Marker', cursive;
+}
+.txt2 p{
+	color: white;
+	font-size: 15px;
+	font-family: 'Indie Flower', cursive;
+}
+.txt3{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	border-bottom: 2px dotted white;
+}
+.txt3 h4{
+	color: white;
+	font-size: 15px;
+	font-family: 'Permanent Marker', cursive;
+}
+.txt3 p{
+	color: white;
+	font-size: 15px;
+	font-family: 'Indie Flower', cursive;
+}
+
+/**/
+
+.des{
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	padding: 10px;
+	clear: both;
+
+}
+.des h2{
+	color: white;
+	padding: 10px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 35px;
+}
+.des p{
+	color: white;
+	font-size: 20px;
+	padding: 5px;
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
+
+/**/
+
+.vi{
+	width: 80%;
+	margin-left: 12%;
+	height: auto;
+}
+.vi h2{
+	font-family: 'Permanent Marker', cursive;
+	color: white;
+	padding: 10px;
+	font-size: 35px;
+}

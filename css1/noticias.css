@@ -1,0 +1,159 @@
+.noticias{
+	width: 80%;
+	height: auto;
+	clear: both;
+	
+
+		/*
+			&:before,&:after{
+		content:"";
+		position: absolute;
+		width: calc(100% - 30px);
+		background-color: #fff;
+		transition: all . 3s;
+		}
+		&:before{left: -100% top:10px;};
+		&:after{left: 100% bottom:10px;};	
+
+		&:hover:before,&:hover:after{
+		left: 15px;
+		}
+	}
+		*/
+
+}
+.c-img{
+	width: 50%;
+	max-width: auto;
+	position: relative;
+	float: left;
+
+
+	display: flex;
+	align-items: center;
+
+}			
+.c-img img{
+		width: 100%;                     
+		border: 5px solid white;
+		border-radius: 5px;
+
+	}
+	.txt1{
+		text-align: center;
+		position: absolute;	
+
+
+
+	}
+.txt1 h3{
+		color:  #D7DF01;
+		padding: 10px 20px;
+		font-size: 30px;
+		font-family: 'Kaushan Script', cursiva;
+		text-shadow: 0.1em 0.1em 0.2em black;
+		}	
+
+
+.c-img{
+	width: 50%;
+	max-width: auto;
+	position: relative;
+	float: left;
+	padding: 3px;
+
+
+	display: flex;
+	align-items: center;
+
+	
+}		
+
+
+.img2{
+	width: 50%;
+	max-width: 600px;
+	position: relative;
+	float: left;
+	padding: 3px;
+
+	display: flex;
+	align-items: center;
+}
+
+.img2 img{
+		width: 100%;
+		border: 5px solid white;
+		border-radius: 5px;
+	}
+	.txt2{
+		text-align: center;
+		position: absolute;		
+	}
+.txt2 h3{
+		color: #D7DF01;
+		padding: 10px 20px;
+		font-size: 30px;
+		font-family: 'Kaushan Script', cursiva;
+		text-shadow: 0.1em 0.1em 0.2em black;
+		}
+
+.img3{
+	width: 50%;
+	max-width: 600px;
+	position: relative;
+	float: left;
+	padding: 3px;
+
+	display: flex;
+	align-items: center;
+}
+
+.img3 img{
+		width: 100%;
+		border: 5px solid white;
+		border-radius: 5px;
+	}
+	.txt3{
+		text-align: center;
+		position: absolute;		
+	}
+.txt3 h3{
+		color: #D7DF01;
+		padding: 10px 20px;
+		font-size: 30px;
+		font-family: 'Kaushan Script', cursiva;
+		text-shadow: 0.1em 0.1em 0.2em black;
+		}
+
+.img4{
+	width: 50%;
+	max-width: 600px;
+	position: relative;
+	float: left;
+	padding: 3px;
+	
+
+	display: flex;
+	align-items: center;
+}
+
+.img4 img{
+		width: 100%;
+		border: 5px solid white;
+		border-radius: 5px;
+		
+		
+	}
+	.txt4{
+		text-align: center;
+		position: absolute;		
+		
+	}
+.txt4 h3{
+		color: #D7DF01;
+		padding: 10px 20px;
+		font-size: 30px;
+		font-family: 'Kaushan Script', cursiva;
+		text-shadow: 0.1em 0.1em 0.2em black;
+		}	

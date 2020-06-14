@@ -1,0 +1,56 @@
+.titulo{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	color: #fff;
+	clear: both;
+
+	top: 0;
+	left: 0;
+	z-index: 100px;
+}
+.titulo img{
+	width: 6%;
+	height: 70px;
+	float: left;
+}
+header{
+	width: 100%;
+}
+#btn-menu{
+	display: none;
+}
+header label{
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+	border-right: 3px solid #fff;
+}
+header label{
+	cursor: pointer;
+	background: rgba(0,0,0,0.3);
+}
+.menu ul{
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end; /*posicion del menu*/
+}
+.menu li {
+	border-right: 1px solid #fff;
+	font-family: 'Sedgwick Ave', cursive;
+}
+.menu li:hover{
+	background: rgba(0,0,0,0.3);
+}
+.menu li a{
+	display: block;
+	padding: 25px 15px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+
+

@@ -1,0 +1,68 @@
+.cajas{
+	width: 80%;
+	height: auto;
+	position: relative;
+
+
+}
+.caja1{
+		width: 25%;
+		height: auto;
+		display: inline-block;	
+		overflow: hidden;
+		position: relative;
+		box-sizing: border-box;
+		border: 5px solid white;
+		margin-top: 5%;
+		margin-left: 5%;
+		}
+.caja1 img{
+		transition: 1s;
+
+		}
+.caja1:hover img{
+		transform: scale(2.0);
+		transition: 1s;
+		filter: brightness(150%);
+		}
+
+/*
+.caja2{
+		width: 25%;
+		height: auto;
+		display: inline-block;		
+		overflow: hidden;
+		position: relative;
+		box-sizing: border-box;
+		border: 5px solid white;
+
+		}
+.caja2 img{
+		transition: 1s;
+		}
+.caja2:hover img{
+		transform: scale(2.0);
+		transition: 1s;
+		filter: brightness(150%);
+		}
+
+
+.caja3{
+		width: 25%;
+		height: auto;
+		display: inline-block;		
+		overflow: hidden;
+		position: relative;
+		box-sizing: border-box;
+		border: 5px solid white;
+
+		}
+.caja3 img{
+		transition: 1s;
+		}
+.caja3:hover img{
+		transform: scale(2.0);
+		transition: 1s;
+		filter: brightness(150%);
+		}	
+*/
